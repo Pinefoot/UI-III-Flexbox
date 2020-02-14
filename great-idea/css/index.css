@@ -387,3 +387,30 @@ button {
 	padding: 14px;
 }
 
+/*FACTS SECTION*/
+
+.factaboutServ{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 94%;
+}
+
+.factsServ{
+	margin-right: 18%;
+    margin-left: 7%;
+    width: 39%;
+}
+
+li {
+	list-style-type: square;
+	margin: 16px;
+}
+
+/*Footer*/
+
+.footserv {
+	display: flex;
+    justify-content: center;
+}
