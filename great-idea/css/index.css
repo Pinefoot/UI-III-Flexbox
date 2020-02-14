@@ -321,7 +321,8 @@ button {
 .containerDDUI {
 	display: flex;
 	justify-content: space-evenly;
-	margin-bottom: 
+	
+	align-items: center; 
 	
 }
 
@@ -414,3 +415,82 @@ li {
 	display: flex;
     justify-content: center;
 }
+
+
+
+/*media query attempt*/
+
+@media (max-width: 1000px){
+	.content {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+		
+	}
+	
+	button {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+	
+	.containerDDUI {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+	
+	.containerDMWD{
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+	
+	.containerIOSAD {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+	.digiDesign {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+	.uxUI {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	
+	}
+	.digiMark {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+	.webDev {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+	.ios {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+	.androidDev {
+		display:flex;
+		flex-direction: column;
+		margin: 0%;
+		justify-content: center;
+	}
+}	
